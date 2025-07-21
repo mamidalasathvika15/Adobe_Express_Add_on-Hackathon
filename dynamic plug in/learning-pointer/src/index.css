@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f8fc;
+    color: #222;
+    margin: 0;
+    padding: 30px;
+}
+#app {
+    background: #fff;
+    box-shadow: 0 4px 24px #0001;
+    border-radius: 12px;
+    max-width: 420px;
+    margin: 32px auto;
+    padding: 24px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 18px;
+}
+.tutorial-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+.big-btn {
+    font-size: 1.22em;
+    padding: 18px 0;
+    background: #6f4bef;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background 0.23s;
+}
+.big-btn:hover {
+    background: #5837ae;
+}
+#instructionPanel.hidden {
+    display: none;
+}
+#instructionPanel {
+    border: 2px solid #6f4bb5;
+    border-radius: 7px;
+    padding: 18px 12px;
+    margin-top: 10px;
+    background: #f3f0ff;
+}
+.step-title {
+    font-size: 1.2em;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #4a379c;
+}
+.step-desc {
+    margin-bottom: 16px;
+    color: #463398;
+}
+#nextStep, #skipTutorial {
+    padding: 4px 6px;
+    margin-right: 8px;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    background: #6f4bef;
+    color: #fff;
+    cursor: pointer;
+}
+#skipTutorial {
+    background: #fff;
+    color: #6f4bef;
+    border:  solid #6f4bef;
+}
+#nextStep:hover {
+    background: #5837ae;
+}
+#skipTutorial:hover {
+    color: #fff;
+    background: #6f4bef;
+}
+.step-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+
+.replay-btn {
+  display: flex;
+  align-items: center;
+  background: #edeafd;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 4px 8px;
+  transition: background 0.2s;
+  box-shadow: 0px 2px 8px #0002;
+}
+.replay-btn:hover {
+  background: #d1c7f7;
+}
+.replay-btn svg {
+  margin-right: 0px;
+}
+#app {
+  position: relative;
+}
+
+.fixed-end-btn {
+  position: absolute;
+  right: 28px;
+  bottom: 22px;
+  z-index: 100;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-size: 1em;
+  font-weight: bold;
+  background: #fff;
+  color: #6f4bef;
+  border: 2px solid #6f4bef;
+  box-shadow: 0 3px 20px #0002;
+  transition: background 0.22s, color 0.22s;
+}
+
+.fixed-end-btn:hover {
+  color: #fff;
+  background: #6f4bef;
+}
+
+@media (max-width: 600px) {
+  .fixed-end-btn {
+    right: 10px;
+    bottom: 10px;
+    padding: 8px 14px;
+  }
+}
+
+

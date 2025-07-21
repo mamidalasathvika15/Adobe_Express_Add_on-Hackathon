@@ -1,0 +1,44 @@
+{
+  "testId": "learning-pointer",
+  "name": "Interactive Learning Pointer",
+  "version": "1.0.0",
+  "manifestVersion": 2,
+  "requirements": {
+    "apps": [
+      {
+        "name": "Express",
+        "apiVersion": 1
+      }
+    ]
+  },
+  "entryPoints": [
+  {
+    "type": "panel",
+    "id": "panel1",
+    "main": "index.html"
+  }
+],
+
+  "uiEntry": {
+    "type": "exchangeComponent",
+    "main": "index.html"
+  },
+  "documentSandbox": {
+    "main": "documentSandbox/code.js"
+  },
+  "permissions": {
+    "webAccess": {
+      "domains": [
+        "https://new.express.adobe.com"
+      ]
+    }
+  },
+  "icons": [
+    {
+      "width": 24,
+      "height": 24,
+      "path": "icons/icon.png",
+      "theme": ["darkest", "dark", "light", "lightest"]
+    }
+  ]
+}
