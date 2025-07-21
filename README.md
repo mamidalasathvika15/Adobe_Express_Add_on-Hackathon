@@ -28,6 +28,16 @@ Designed with an intuitive UI and high performance, it delivers a smooth, seamle
    ```bash
    git clone https://github.com/mamidalasathvika15/Adobe_Express_Add_on-Hackathon.git
 
+2. Navigate to the project folder:
+
+cd Adobe_Express_Add_on-Hackathon
+
+3. Install dependencies:
+
+npm install
+
+4. Load the plugin into your Adobe Express environment.
+
 ## Usage
 1. Open **Adobe Express**.
 2. Enable or load this add‑on through the plugin management section.
@@ -40,3 +50,19 @@ Designed with an intuitive UI and high performance, it delivers a smooth, seamle
    - `src/index.js` – Main logic and interactivity.
    - `manifest.json` – Plugin configuration and metadata.
 5. Modify the code and reload the plugin to see your changes in real‑time.
+
+## Folder Structure
+├── dynamic plug in/
+│   └── learning-pointer/
+│       ├── src/
+│       │   ├── index.html
+│       │   ├── index.js
+│       │   └── manifest.json
+│       ├── README.md
+│       └── package.json
+├── package-lock.json
+└── ...
+
+
+## Contributors
+Mamidala Sathvika 
