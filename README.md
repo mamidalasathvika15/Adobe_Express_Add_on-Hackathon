@@ -29,12 +29,12 @@ Designed with an intuitive UI and high performance, it delivers a smooth, seamle
    git clone https://github.com/mamidalasathvika15/Adobe_Express_Add_on-Hackathon.git
 
 2. Navigate to the project folder:
-
-cd Adobe_Express_Add_on-Hackathon
+ 
+   cd Adobe_Express_Add_on-Hackathon
 
 3. Install dependencies:
 
-npm install
+    npm install
 
 4. Load the plugin into your Adobe Express environment.
 
