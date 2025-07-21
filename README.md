@@ -34,9 +34,9 @@ Designed with an intuitive UI and high performance, it delivers a smooth, seamle
 
 3. Install dependencies:
 
-    npm install
-    npm run build
-    npm run start
+   - npm install
+   - npm run build
+   - npm run start
 
 5. Load the plugin into your Adobe Express environment.
 
