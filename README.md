@@ -51,19 +51,6 @@ npm install
    - `manifest.json` – Plugin configuration and metadata.
 5. Modify the code and reload the plugin to see your changes in real‑time.
 
-## Folder Structure
-├── dynamic plug in/
-│   └── learning-pointer/
-│       ├── src/
-│       │   ├── index.html
-│       │   ├── index.js
-│       │   └── manifest.json
-│       ├── README.md
-│       └── package.json
-├── package-lock.json
-└── ...
-
-
 ## Contributors
 CHIPPA RISHIKESH
 GUNDLAPELLI AKHIL SREEVATHSAVA
